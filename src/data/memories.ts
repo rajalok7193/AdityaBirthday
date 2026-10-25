@@ -11,21 +11,21 @@ export const chapters = [
 const m = (chapter: number, n: number, caption: string, size: Memory['size'] = ''): Memory =>
   ({ chapter, src: `images/memory-${String(n).padStart(2, '0')}.jpg`, alt: `Photo ${n}: ${caption}`, caption, size })
 export const memories: Memory[] = [
-  m(0, 1, 'Caption for photo 1', 'wide'), m(0, 2, 'Caption for photo 2'),
-  m(1, 3, 'Caption for photo 3'), m(1, 4, 'Caption for photo 4', 'tall'),
-  m(2, 5, 'Caption for photo 5'), m(2, 6, 'Caption for photo 6', 'wide'),
-  m(3, 7, 'Caption for photo 7', 'wide'), m(3, 8, 'Caption for photo 8'),
-  m(4, 9, 'Caption for photo 9', 'tall'), m(4, 10, 'Caption for photo 10'),
+  m(0, 1, 'Our Bakchodi in office', 'wide'), m(0, 2, 'Choli ke pichhe kya h?'),
+  m(1, 3, 'O bhai o kya maal h...!'), m(1, 4, 'Bhai tu kab Haldi lagwa rha h?', 'tall'),
+  m(2, 5, 'Bhai hum log kya Alian lag rhe h'), m(2, 6, 'I think this is our fist clubbing', 'wide'),
+  m(3, 7, 'Devil Aditya!', 'wide'), m(3, 8, 'Caption khud soch le'),
+  m(4, 9, 'o bhai kya Smile teri?', 'tall'), m(4, 10, '2 rupye ki papsi apna bhai sexy!!'),
 ]
 export const timeline = [
-  { year: 'Year One', date: '[add dates]', story: 'Placeholder — write the story of how it began.', joke: '', quote: '' },
-  { year: 'Year Two', date: '[add dates]', story: 'Placeholder — a memory from this year.', joke: '', quote: '' },
-  { year: 'Year Three', date: '[add dates]', story: 'Placeholder — a memory from this year.', joke: '', quote: '' },
-  { year: 'Year Four', date: '[add dates]', story: 'Placeholder — a memory from this year.', joke: '', quote: '' },
+  { year: 'Year One', date: '[Oct 2023]', story: 'Our first year durga puja pandal hopping.', joke: '', quote: '' },
+  { year: 'Year Two', date: '[Nov 2024]', story: 'Chandan Bhai ki sadi me Shapooji gang', joke: '', quote: '' },
+  { year: 'Year Three', date: '[March 2025]', story: 'Finding perfect bra for Brother. ', joke: '', quote: '' },
+  { year: 'Year Four', date: '[April 2026]', story: 'Laundiabazi in After party', joke: '', quote: '' },
 ].map((t, i) => ({ ...t, photo: `images/memory-${String(i + 1).padStart(2, '0')}.jpg` }))
 export const jokes = [
   'The Plan That Was Never Really a Plan', 'One More Night Out', 'Flatmate Logic',
-  'The Sea Adventure Files', 'Stories Best Left Between Us',
+  'The Bokhali Sea Adventure ', 'Stories Best Left Between Us',
 ].map(t => ({ title: t, text: 'Replace with the real inside joke.' }))
 export const letter = [
   'Happy birthday, brother.',
@@ -35,7 +35,7 @@ export const letter = [
   'Happy birthday, Aditya. Four years down, a lifetime of memories to go.',
 ]
 export const brotherhood = [
-  'Some people start as flatmates and somehow become family.',
+  'Some people start as colleague and somehow become family.',
   'Four years later, what I remember most isn’t just the places we’ve been or the nights we’ve spent out.',
   'It’s the random plans, the ridiculous laughter, the stories that make sense to nobody else — and the way an ordinary day could turn into a memory worth keeping.',
   'We’ve had our share of chaos, unforgettable adventures, and moments that will always be ours.',
