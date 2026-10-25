@@ -11,11 +11,11 @@ export const chapters = [
 const m = (chapter: number, n: number, caption: string, size: Memory['size'] = ''): Memory =>
   ({ chapter, src: `images/memory-${String(n).padStart(2, '0')}.jpg`, alt: `Photo ${n}: ${caption}`, caption, size })
 export const memories: Memory[] = [
-  m(0, 1, 'Our Bakchodi in office', 'wide'), m(0, 2, 'Choli ke pichhe kya h?'),
-  m(1, 3, 'O bhai o kya maal h...!'), m(1, 4, 'Bhai tu kab Haldi lagwa rha h?', 'tall'),
-  m(2, 5, 'Bhai hum log kya Alian lag rhe h'), m(2, 6, 'I think this is our fist clubbing', 'wide'),
+  m(0, 1, 'Bhai hum log kya Alian lag rhe h', 'wide'), m(0, 2, 'o bhai kya Smile teri?'),
+  m(1, 3, 'Choli ke pichhe kya h?'), m(1, 4, 'O bhai o kya maal h...!', 'tall'),
+  m(2, 5, 'Office me bakchodi'), m(2, 6, 'I think this is our fist clubbing', 'wide'),
   m(3, 7, 'Devil Aditya!', 'tall'), m(3, 8, 'Caption khud soch le', 'tall'),
-  m(4, 9, 'o bhai kya Smile teri?', 'tall'), m(4, 10, '2 rupye ki papsi apna bhai sexy!!', 'tall'),
+  m(4, 9, 'Bhai tu kab Haldi lagwa rha h?', 'tall'), m(4, 10, '2 rupye ki papsi apna bhai sexy!!', 'tall'),
 ]
 export const timeline = [
   { year: 'Year One', date: '[Oct 2023]', story: 'Our first year durga puja pandal hopping.', joke: '', quote: '' },
