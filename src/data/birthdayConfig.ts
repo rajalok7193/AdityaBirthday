@@ -6,7 +6,7 @@ export const config = {
   targetISO: '2026-10-24T00:00:00+05:30',
   soundtrack: { src: 'audio/soundtrack.mp3', title: 'Your licensed indie track (edit title)' },
   signature: 'Always your brother in this madness.',
-  fromName: '— [Your name]',
+  fromName: '— [Alok Raj]',
   shareTeaser: 'Something special is waiting for Aditya. Four years, countless stories.',
 }
 // Test without waiting: open /?now=2026-10-23T18:29:50Z  (fake "current time", keeps ticking)
