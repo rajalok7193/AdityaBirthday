@@ -1,10 +1,10 @@
 export type Memory = { chapter: number; src: string; alt: string; caption: string; date?: string; size?: 'wide' | 'tall' | '' }
 export const chapters = [
-  { title: 'The Night-Out Chronicles', blurb: 'Late nights, spontaneous plans, and what happened after dark.' },
-  { title: 'Flatmates, Roommates & Absolute Chaos', blurb: 'Ordinary days that turned into the best ones.' },
-  { title: 'Drinks, Laughs & No Regrets', blurb: 'Good company, better stories.' },
-  { title: 'Lost Between the Waves', blurb: 'Sea, sand and salt-water stories.' },
-  { title: 'The Moments That Made Us', blurb: 'The candid ones that say it all.' },
+  { title: 'Sharing lots of laugh..', blurb: 'Late nights, spontaneous plans, and what happened after dark.' },
+  { title: 'The Night-Out Chronicles', blurb: 'Ordinary days that turned into the best ones.' },
+  { title: 'The Moments That Made Us', blurb: 'Good company, better stories.' },
+  { title: 'Lost Between the Pandals', blurb: 'Sea, sand and salt-water stories.' },
+  { title: 'The Moments', blurb: 'The candid ones that say it all.' },
 ]
 // Drop photos in public/images/ and edit below. Missing files show a labelled placeholder.
 // Keep 6-15 items. Captions/dates optional — leave date out if unsure.
