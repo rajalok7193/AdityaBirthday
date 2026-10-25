@@ -14,7 +14,7 @@ export const memories: Memory[] = [
   m(0, 1, 'Our Bakchodi in office', 'wide'), m(0, 2, 'Choli ke pichhe kya h?'),
   m(1, 3, 'O bhai o kya maal h...!'), m(1, 4, 'Bhai tu kab Haldi lagwa rha h?', 'tall'),
   m(2, 5, 'Bhai hum log kya Alian lag rhe h'), m(2, 6, 'I think this is our fist clubbing', 'wide'),
-  m(3, 7, 'Devil Aditya!', 'wide'), m(3, 8, 'Caption khud soch le', 'tall'),
+  m(3, 7, 'Devil Aditya!', 'tall'), m(3, 8, 'Caption khud soch le', 'tall'),
   m(4, 9, 'o bhai kya Smile teri?', 'tall'), m(4, 10, '2 rupye ki papsi apna bhai sexy!!', 'tall'),
 ]
 export const timeline = [
